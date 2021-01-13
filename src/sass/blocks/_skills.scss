@@ -26,7 +26,6 @@
         display: grid;
         grid-template-columns: repeat(4, 270px);
         column-gap: 13px;
-        row-gap: 13px;
     }
     &__item {
         width: 100%;
@@ -52,4 +51,27 @@
             margin-top: 15px;
         }
     }
+    &__counter {
+        padding: 100px 0 120px 0;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        column-gap: 45px;
+        row-gap: 30px;
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__title {
+        &-work {
+            position: relative;
+            padding-top: 2px;
+            padding-left: 13px;
+            @include before_circle;
+        }
+        &-procent {
+            font-weight: 500;
+        }
+    }
+    
 }
