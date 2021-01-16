@@ -25,6 +25,7 @@
         position: relative;
         padding-left: 12px;
         padding-top: 1px;
+        margin-bottom: 0;
         @include before_circle;
         &_black {
             color: #212529;
