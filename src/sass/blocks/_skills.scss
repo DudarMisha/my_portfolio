@@ -25,14 +25,13 @@
         padding: 60px 10px 0 10px;
         display: grid;
         grid-template-columns: repeat(4, 270px);
-        column-gap: 13px;
+        gap: 13px;
     }
     &__item {
         width: 100%;
         min-height: 270px;
         border: 1px solid #000000;
         padding: 30px 30px 25px 30px;
-        margin-bottom: 13px;
         &-icon {
             height: 65px;
             display: flex;
