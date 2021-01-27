@@ -68,6 +68,7 @@
                 @include before_circle;
             }
             &-procent {
+                display: none;
                 font-weight: 500;
             }
         }

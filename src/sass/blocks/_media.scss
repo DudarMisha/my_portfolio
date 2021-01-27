@@ -229,6 +229,13 @@
         &__wrapper {
             grid-template: 340px auto auto/ 1fr;
         }
+        &__photo {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 85%;
+            }
+        }
         &__skills {
             grid-template-columns: 1fr;
         }
@@ -289,6 +296,9 @@
         }
         &__counter {
             grid-template: repeat(2,1fr)/repeat(1,1fr);
+            &-line {
+                width: 95%;
+            }
         }
     }
     .portfolio {
