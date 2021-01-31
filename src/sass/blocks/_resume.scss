@@ -19,7 +19,7 @@
    .divider {
         margin: 0 auto;
         margin-top: 25px;
-        background-color: $main-color; 
+        background-color: $circle-color; 
     }
     &__wrapper {
         padding: 60px 65px 0 65px;
@@ -36,7 +36,7 @@
                 position: absolute;
                 width: 15px;
                 height: 15px;
-                background: $main-color;
+                background: $circle-color;
                 border-radius: 100%;
                 left: -7px;
                 top: 50%;

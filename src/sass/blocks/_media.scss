@@ -8,6 +8,12 @@
     .container {
         max-width: 960px;
     }
+    .promo {
+        &__btns {
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+    }
     .about {
         &__wrapper {
             grid-template-columns: 400px 520px;
@@ -70,6 +76,16 @@
     .title {
         &_fz36 {
             font-size: 30px;
+        }
+    }
+    .promo {
+        &__subtitle {
+            &:before {
+                background: #d3f36e;
+            }
+        }
+        &__title {
+            width: 680px;
         }
     }
     .about {
@@ -137,9 +153,19 @@
         }
     }
     .promo {
+        .hamburger {
+            right: 20px;
+            span {
+                background: #d3f36e;
+            }
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
         &__title {
-            line-height: 39px;
-            width: 300px;
+            line-height: 120px;
+            width: 400px;
+            font-size: 65px;
         }
     }
     .about {
@@ -212,15 +238,29 @@
         }
     }
     .hamburger {
-        right: 20px;
+        position: absolute;
+        right: 10px;
     }
     .menu {
         &__block {
             width: 250px;
             padding-left: 20px;
         }
+        &__list {
+           padding-left: 25px; 
+        }
+        &__link {
+            font-size: 21px;
+            line-height: 35px;
+        }
     }
     .promo {
+        position: relative;
+        &__title {
+            width: 300px;
+            font-size: 45px;
+            line-height: 82px;
+        }
         &__btns {
             margin-top: 32px;
         }

@@ -17,4 +17,6 @@ counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 });     
 
-     
+document.querySelector(".menu__list").addEventListener("click",function(e) {
+    menu.classList.remove('active');
+});
